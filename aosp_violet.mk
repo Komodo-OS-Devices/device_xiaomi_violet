@@ -7,14 +7,15 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Nusantara-OS stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common Hycon-OS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-NAD_BUILD_TYPE := UNOFFICIAL
+HYCON_BUILD_TYPE := OFFICIAL
+DEVICE_MAINTAINER := H.A.R.I.P.R.A.K.A.S.H
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_violet
+PRODUCT_NAME := aosp_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_violet.mk
+    $(LOCAL_DIR)/aosp_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_violet-userdebug \
-    nad_violet-user \
-    nad_violet-eng
+    aosp_violet-userdebug \
+    aosp_violet-user \
+    aosp_violet-eng
