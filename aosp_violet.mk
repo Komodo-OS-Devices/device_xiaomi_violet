@@ -12,7 +12,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 HYCON_BUILD_TYPE := OFFICIAL
-DEVICE_MAINTAINER := H.A.R.I.P.R.A.K.A.S.H
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_violet
@@ -26,8 +25,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys
-BUILD_DESCRIPTION := redfin-user 11 RQ3A.210605.005 7349499 release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
+BUILD_DESCRIPTION := redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)" \
