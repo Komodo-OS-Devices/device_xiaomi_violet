@@ -13,6 +13,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 HYCON_BUILD_TYPE := OFFICIAL
 
+# Inherit ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_violet
 PRODUCT_DEVICE := violet
