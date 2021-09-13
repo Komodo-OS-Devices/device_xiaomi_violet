@@ -7,6 +7,10 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
+# Komodo
+KOMODO_OFFICIAL := true
+KOMODO_BUILD_TYPE := OFFICIAL
+
 # Inherit some common Komodo-OS stuff.
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
