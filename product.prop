@@ -55,7 +55,6 @@ ro.incremental.enable=1
 ro.config.low_ram=false
 
 # Iorap
-iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
 
 # Media
