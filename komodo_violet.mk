@@ -16,9 +16,6 @@ $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
-# Inherit ANX Camera
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := komodo_violet
 PRODUCT_DEVICE := violet
